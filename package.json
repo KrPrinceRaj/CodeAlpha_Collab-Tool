@@ -1,0 +1,15 @@
+{
+  "name": "collab-tool",
+  "version": "1.0.0",
+  "description": "Collaborative project management tool with auth, boards, task cards, comments, notifications, and real-time updates.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node --check server.js && node --check public/app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
